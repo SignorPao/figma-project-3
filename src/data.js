@@ -1,6 +1,6 @@
 // import icons
-import { BsCart3 } from "react-icons/bs";
-import { IoStar, IoMenu } from "react-icons/io5";
+// import { BsCart3 } from "react-icons/bs";
+import { IoCartOutline, IoStar, IoMenu, IoClose } from "react-icons/io5";
 
 // import images
 import HeroImg from "../src/assets/header/heroImg.png";
@@ -16,8 +16,9 @@ import BestBG from "../src/assets/bestseller/bestsellerBG.png";
 
 export const navData = {
   logo: "Fashion",
-  icon: {
-    icon: <BsCart3 />,
+  cartIcon: {
+    // icon: <BsCart3 />,
+    icon: <IoCartOutline />,
     href: "#!",
   },
   loginBtn: "Login",
@@ -25,10 +26,16 @@ export const navData = {
     { name: "Home", href: "home" },
     { name: "New", href: "new" },
     { name: "About", href: "about" },
-    { name: "Best Sellers", href: "best" },
+    { name: "Best Seller", href: "best" },
     { name: "Product", href: "product" },
     { name: "Testimonial", href: "testimonial" },
   ],
+  burgerBtn: {
+    icon: <IoMenu />,
+  },
+  closeBtn: {
+    icon: <IoClose />,
+  },
 };
 
 export const heroData = {

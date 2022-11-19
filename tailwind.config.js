@@ -5,11 +5,20 @@ module.exports = {
     fontFamily: {
       primary: "Frank Ruhl Libre",
       secondary: "Lato",
+      a:'Grand Hotel',
+      b:'Great Vibes',
+      c:'Imperial Script',
+      d:'Mea Culpa',
+      e:'MonteCarlo',
+      f:'Niconne',
+      g:'Pinyon Script',
+      h:'Rochester',
+      i:'Sacramento',
     },
     container: {
       padding: {
         DEFAULT: "1rem",
-        lg: "0",
+        // lg: "0",
       },
     },
     screens: {
@@ -29,13 +38,14 @@ module.exports = {
         },
         red: "#C01616",
         yellow: "#FFB168",
+        transparent: "transparent",
       },
       // boxShadow: {
       //   primary: "0px 8px 30px -12px rgba(43, 43, 43, 1)",
       // },
       backgroundImage: {
-        header: "url('src/assets/header/headerBG.png')",
-        bestseller: "url('src/assets/bestseller/bestsellerBG.png')",
+        header: "url('assets/header/headerBG.png')",
+        bestseller: "url('assets/bestseller/bestsellerBG.png')",
       },
     },
   },
