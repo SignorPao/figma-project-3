@@ -3,8 +3,13 @@
 import { IoCartOutline, IoStar, IoMenu, IoClose } from "react-icons/io5";
 
 // import images
-import HeroImg from "../src/assets/header/heroImg.png";
-import HeroBG from "../src/assets/header/headerBG.png";
+// import HeroImg from "../src/assets/header/heroImg.webp";
+// import HeroBG from "../src/assets/header/heroImg.webp";
+// import HeroBG2 from "../src/assets/header/heroImg2.webp";
+
+import Gradient from '../src/assets/gradient.png'
+import Vector from "../src/assets/vector.svg";
+import Rectangle from "../src/assets/rectangle.png";
 
 import NewCollection1 from "../src/assets/new collection/newCollection1.png";
 import NewCollection2 from "../src/assets/new collection/newCollection2.png";
@@ -43,8 +48,10 @@ export const heroData = {
   subtitle:
     "Lorem ipsum dolor sit amet consectetur. Tristique praesent risus a ullamcorper. Donec sit turpis elit enim.",
   btn: "Shop now",
-  img: HeroImg,
-  bg: HeroBG,
+  // img: HeroImg,
+  // bg: HeroBG,
+  gradient: Gradient,
+  vector: Vector,
 };
 
 export const newCollectionData = {

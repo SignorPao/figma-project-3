@@ -6,6 +6,9 @@ import NavMobile from "./NavMobile";
 // import data
 import { navData } from "../data";
 
+// import style
+import "../style.css";
+
 const Nav = () => {
   // destructure nav data
   const { logo, cartIcon, loginBtn, menu, burgerBtn, closeBtn } = navData;
@@ -43,7 +46,7 @@ const Nav = () => {
   return (
     <nav
       className={`${
-        navState ? "bg-header py-2 shadow-xl" : "bg-indigo-300 py-6"
+        navState ? "bg-header py-2 shadow-xl" : "py-6"
       } fixed top-0 left-0 w-full z-50 duration-300`}
     >
       <div className="wrapper flex justify-between items-center">
@@ -53,14 +56,14 @@ const Nav = () => {
         </a>
 
         {/* nav: mobile - hidden | desktop - show */}
-        <ul className="hidden lg:flex gap-x-6">
+        <ul className="hidden lg:flex gap-x-1">
           {menu.map((item, index) => {
             // destructure menu data
             const { name, href } = item;
 
             return (
               <li key={index}>
-                <a href={`#${href}`} className="font-semibold">
+                <a href={`#${href}`} className="font-semibold link">
                   {name}
                 </a>
               </li>
@@ -81,7 +84,7 @@ const Nav = () => {
             </div>
           </div>
 
-          <button className="btn btn-secondary lg:border-2 lg:font-semibold">
+          <button className="btn btn-secondary">
             {loginBtn}
           </button>
         </div>

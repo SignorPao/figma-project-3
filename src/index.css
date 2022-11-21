@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* logo */
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Great+Vibes&family=Imperial+Script&family=Mea+Culpa&family=MonteCarlo&family=Niconne&family=Pinyon+Script&family=Rochester&family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Great+Vibes&family=Imperial+Script&family=Mea+Culpa&family=MonteCarlo&family=Niconne&family=Pinyon+Script&family=Rochester&family=Sacramento&display=swap");
 /* logo */
 
 @tailwind base;
@@ -37,17 +37,17 @@
     @apply font-bold text-[12px] lg:text-[14px] 2xl:text-[18px];
   }
   .btn {
-    @apply uppercase tracking-wider px-8 py-2 font-semibold text-xs md:text-sm lg:text-base 2xl:text-lg transition;
+    @apply tracking-wider px-8 py-2 font-semibold text-xs md:text-sm lg:text-base 2xl:text-lg transition;
   }
   .btn-primary {
-    @apply bg-black text-white hover:bg-black/90;
+    @apply capitalize bg-black text-white hover:bg-black/80;
   }
   .btn-secondary {
-    @apply font-medium bg-transparent text-black border border-black text-[10px] md:text-[12px] 2xl:text-[13px] 2xl:text-lg hover:bg-black hover:text-white; 
+    @apply uppercase font-medium bg-transparent text-black border border-black text-[10px] md:text-[12px] 2xl:text-[16px] 2xl:text-lg hover:bg-black hover:text-white lg:border-2 lg:font-semibold;
   }
-  .link {
-    @apply uppercase font-semibold cursor-pointer hover:text-black/80 transition;
-  }
+  /* .link {
+    @apply cursor-pointer hover:text-black/80 transition;
+  } */
 }
 
 html {
