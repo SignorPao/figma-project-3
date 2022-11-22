@@ -16,6 +16,9 @@
   .wrapper {
     @apply container mx-auto;
   }
+  .section {
+    @apply my-2 py-14 md:my-4 md:py-14 lg:my-4 lg:py-16 xl:my-4 xl:py-20 2xl:my-10 2xl:py-24;
+  }
   .h1,
   .h2,
   .h3,
@@ -40,10 +43,10 @@
     @apply tracking-wider px-8 py-2 font-semibold text-xs md:text-sm lg:text-base 2xl:text-lg transition;
   }
   .btn-primary {
-    @apply capitalize py-3 bg-black text-white hover:bg-black/80;
+    @apply capitalize py-3 bg-black text-white hover:bg-black/90 active:bg-black hover:drop-shadow-2xl hover:-translate-y-px active:translate-y-0;
   }
   .btn-secondary {
-    @apply uppercase font-medium bg-transparent text-black border border-black text-[10px] md:text-[12px] 2xl:text-[16px] hover:bg-black hover:text-white lg:border-2 lg:font-semibold;
+    @apply uppercase font-medium bg-transparent text-black border border-black text-[10px] md:text-[12px] 2xl:text-[14px] hover:bg-black hover:text-white lg:border-2 lg:font-semibold;
   }
   /* .link {
     @apply cursor-pointer hover:text-black/80 transition;

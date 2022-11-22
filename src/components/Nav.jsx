@@ -51,19 +51,33 @@ const Nav = () => {
     >
       <div className="wrapper flex justify-between items-center">
         {/* logo */}
-        <a href="#" className="font-a text-3xl text-black lg:text-4xl">
-          {logo}
-        </a>
+        <div data-aos="fade-down" data-aos-delay="600">
+          <div className="hover:scale-110 transition">
+            <a
+              href="#"
+              className="font-a text-3xl text-black lg:text-4xl 2xl:text-5xl"
+            >
+              {logo}
+            </a>
+          </div>
+        </div>
 
         {/* nav: mobile - hidden | desktop - show */}
-        <ul className="hidden lg:flex gap-x-1">
+        <ul
+          className="hidden lg:flex gap-x-1"
+          data-aos="fade-down"
+          data-aos-delay="800"
+        >
           {menu.map((item, index) => {
             // destructure menu data
             const { name, href } = item;
 
             return (
               <li key={index}>
-                <a href={`#${href}`} className="font-semibold link">
+                <a
+                  href={`#${href}`}
+                  className="font-semibold link 2xl:text-2xl"
+                >
                   {name}
                 </a>
               </li>
@@ -72,8 +86,12 @@ const Nav = () => {
         </ul>
 
         {/* cart icon & login btn: mobile - hidden | desktop -show */}
-        <div className="hidden lg:flex items-center gap-x-6">
-          <div className="relative">
+        <div
+          className="hidden lg:flex items-center gap-x-6"
+          data-aos="fade-down"
+          data-aos-delay="1000"
+        >
+          <div className="relative hover:scale-110 transition">
             <a href={cartIcon.href} className="text-2xl">
               {cartIcon.icon}
             </a>
@@ -84,15 +102,15 @@ const Nav = () => {
             </div>
           </div>
 
-          <button className="btn btn-secondary">
-            {loginBtn}
-          </button>
+          <button className="btn btn-secondary">{loginBtn}</button>
         </div>
 
         {/* burger icon: mobile - show | desktop - hidden */}
         <button
           className="lg:hidden"
           onClick={() => setNavMobile((prev) => !prev)}
+          data-aos="fade-down"
+          data-aos-delay="800"
         >
           {navMobile ? (
             <div className="text-2xl">{closeBtn.icon}</div>

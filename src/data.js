@@ -3,17 +3,13 @@
 import { IoCartOutline, IoStar, IoMenu, IoClose } from "react-icons/io5";
 
 // import images
-// import HeroImg from "../src/assets/header/heroImg.webp";
-// import HeroBG from "../src/assets/header/heroImg.webp";
-// import HeroBG2 from "../src/assets/header/heroImg2.webp";
-
-import Gradient from '../src/assets/gradient.png'
+import Gradient from "../src/assets/gradient.png";
 import Vector from "../src/assets/vector.svg";
 import Rectangle from "../src/assets/rectangle.png";
 
-import NewCollection1 from "../src/assets/new collection/newCollection1.png";
-import NewCollection2 from "../src/assets/new collection/newCollection2.png";
-import NewCollection3 from "../src/assets/new collection/newCollection3.png";
+import NewCollection1 from "../src/assets/new collection/newCollection10.webp";
+import NewCollection2 from "../src/assets/new collection/newCollection20.webp";
+import NewCollection3 from "../src/assets/new collection/newCollection30.webp";
 
 import AboutImg from "../src/assets/about/about.png";
 
@@ -22,7 +18,6 @@ import BestBG from "../src/assets/bestseller/bestsellerBG.png";
 export const navData = {
   logo: "Fashion",
   cartIcon: {
-    // icon: <BsCart3 />,
     icon: <IoCartOutline />,
     href: "#!",
   },
@@ -48,8 +43,6 @@ export const heroData = {
   subtitle:
     "Lorem ipsum dolor sit amet consectetur. Tristique praesent risus a ullamcorper. Donec sit turpis elit enim.",
   btn: "Shop now",
-  // img: HeroImg,
-  // bg: HeroBG,
   gradient: Gradient,
   vector: Vector,
 };
@@ -60,21 +53,23 @@ export const newCollectionData = {
     "Lorem ipsum dolor sit amet consectetur. Dui tincidunt eu consectetur non.",
   cards: [
     {
-      id: "new1",
+      // id: "new1",
       img: NewCollection1,
       text: "Sweater",
     },
     {
-      id: "new2",
+      // id: "new2",
       img: NewCollection2,
       text: "Dress",
     },
     {
-      id: "new3",
+      // id: "new3",
       img: NewCollection3,
       text: "Jacket",
     },
   ],
+  vector: Vector,
+  rectangle: Rectangle,
 };
 
 export const aboutData = {

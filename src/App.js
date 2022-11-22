@@ -12,9 +12,18 @@ import Instagram from "./components/Instagram";
 import Footer from "./components/Footer";
 
 // import AOS
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   // AOS init
+  Aos.init({
+    duration: 900,
+    offset: 120,
+    once: false,
+    easing: "linear",
+    delay: 300,
+  });
 
   return (
     <div>
@@ -29,7 +38,7 @@ function App() {
         <Instagram />
         <Footer />
       </div>
-      <div className="h-[500px]" />
+      <div className="h-[1000px]" />
     </div>
   );
 }

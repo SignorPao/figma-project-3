@@ -45,7 +45,6 @@ module.exports = {
       // },
       backgroundImage: {
         header: "url('assets/header/headerBG.png')",
-        // hero: "url('assets/header/heroImg.webp')",
         hero: "url('assets/header/heroImg.webp')",
         bestseller: "url('assets/bestseller/bestsellerBG.png')",
       },
