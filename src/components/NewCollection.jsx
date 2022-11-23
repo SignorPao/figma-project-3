@@ -5,13 +5,17 @@ import { newCollectionData } from "../data";
 
 const NewCollection = () => {
   // destructure new collection data
-  const { title, subtitle, cards, vector, rectangle } = newCollectionData;
+  const { title, subtitle, cards, rectangle } = newCollectionData;
 
   return (
     <div id="new" className="section overflow-hidden">
       <div className="wrapper flex flex-col gap-y-6 md:gap-y-9 lg:gap-y-12 relative overflow-visible">
         {/* text */}
-        <div className="flex flex-col items-center justify-center text-center gap-y-4">
+        <div
+          className="flex flex-col items-center justify-center text-center gap-y-4"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <h2 className="h2">{title}</h2>
           <p className="capitalize">{subtitle}</p>
         </div>
@@ -20,10 +24,15 @@ const NewCollection = () => {
         <div className="flex flex-col lg:flex-row gap-y-4 md:gap-y-10 lg:gap-y-0 lg:gap-x-6 relative">
           {cards.map((item, index) => {
             // destructure cards data
-            const { img, text } = item;
+            const { img, text, delay } = item;
 
             return (
-              <figure className="relative overflow-hidden z-[20]" key={index}>
+              <figure
+                className="relative overflow-hidden z-[20]"
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={delay}
+              >
                 <img
                   className="hover:scale-110 transition"
                   src={img}
@@ -42,6 +51,10 @@ const NewCollection = () => {
             src={rectangle}
             alt="shape"
             className="absolute -bottom-[3%] md:-bottom-[1%] lg:-bottom-[10%] xl:-bottom-[13%] -right-[10%] md:-right-[9%] xl:-right-[7%] w-40 md:w-52 lg:w-60 2xl:w-80 z-[10]"
+            data-aos="zoom-in-up"
+            // delay="1200"
+            // offset="300"
+            // easing='ease-in-out'
           />
           {/* <img
             src={vector}

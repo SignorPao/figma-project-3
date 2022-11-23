@@ -11,7 +11,7 @@ import NewCollection1 from "../src/assets/new collection/newCollection10.webp";
 import NewCollection2 from "../src/assets/new collection/newCollection20.webp";
 import NewCollection3 from "../src/assets/new collection/newCollection30.webp";
 
-import AboutImg from "../src/assets/about/about.png";
+import AboutImg from "../src/assets/about/about.webp";
 
 import BestBG from "../src/assets/bestseller/bestsellerBG.png";
 
@@ -53,19 +53,19 @@ export const newCollectionData = {
     "Lorem ipsum dolor sit amet consectetur. Dui tincidunt eu consectetur non.",
   cards: [
     {
-      // id: "new1",
       img: NewCollection1,
       text: "Sweater",
+      delay: "300",
     },
     {
-      // id: "new2",
       img: NewCollection2,
       text: "Dress",
+      delay: "600",
     },
     {
-      // id: "new3",
       img: NewCollection3,
       text: "Jacket",
+      delay: "900",
     },
   ],
   vector: Vector,
@@ -77,6 +77,8 @@ export const aboutData = {
   title: "Best fashion since 2022",
   subtitle:
     "Lorem ipsum dolor sit amet consectetur. Tincidunt in id tortor amet. Ac nibh quis ut ornare id. Scelerisque enim donec posuere dolor tristique viverra. Condimentum leo integer velit ipsum tortor.",
+  gradient: Gradient,
+  rectangle: Rectangle,
   stats: [
     {
       id: "stat1",

@@ -38,7 +38,7 @@ const Header = () => {
             data-aos="fade-left"
             data-aos-delay="800"
           >
-            <div className="w-[85%] h-[90%] lg:w-[90%] lg:h-[50%] xl:w-[70%] xl:h-[75%] bg-rose-300 rounded-bl-[90px] lg:rounded-bl-[150px] bg-hero bg-center bg-cover bg-no-repeat relative">
+            <div className="w-[85%] h-[90%] lg:w-[90%] lg:h-[50%] xl:w-[70%] xl:h-[85%] rounded-bl-[80px] lg:rounded-bl-[120px] bg-hero bg-center bg-cover bg-no-repeat relative">
               {/* some shapes */}
               <img
                 src={vector}

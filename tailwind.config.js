@@ -5,15 +5,15 @@ module.exports = {
     fontFamily: {
       primary: "Frank Ruhl Libre",
       secondary: "Lato",
-      a:'Grand Hotel',
-      b:'Great Vibes',
-      c:'Imperial Script',
-      d:'Mea Culpa',
-      e:'MonteCarlo',
-      f:'Niconne',
-      g:'Pinyon Script',
-      h:'Rochester',
-      i:'Sacramento',
+      a: "Grand Hotel",
+      b: "Great Vibes",
+      c: "Imperial Script",
+      d: "Mea Culpa",
+      e: "MonteCarlo",
+      f: "Niconne",
+      g: "Pinyon Script",
+      h: "Rochester",
+      i: "Sacramento",
     },
     container: {
       padding: {
@@ -46,6 +46,7 @@ module.exports = {
       backgroundImage: {
         header: "url('assets/header/headerBG.png')",
         hero: "url('assets/header/heroImg.webp')",
+        about: "url('assets/about/about.webp')",
         bestseller: "url('assets/bestseller/bestsellerBG.png')",
       },
     },
