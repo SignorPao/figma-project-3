@@ -6,12 +6,11 @@ import { IoCartOutline, IoStar, IoMenu, IoClose } from "react-icons/io5";
 import Gradient from "../src/assets/gradient.png";
 import Vector from "../src/assets/vector.svg";
 import Rectangle from "../src/assets/rectangle.png";
+import Rectangle2 from "../src/assets/rectangle2.png";
 
 import NewCollection1 from "../src/assets/new collection/newCollection10.webp";
 import NewCollection2 from "../src/assets/new collection/newCollection20.webp";
 import NewCollection3 from "../src/assets/new collection/newCollection30.webp";
-
-import AboutImg from "../src/assets/about/about.webp";
 
 import BestBG from "../src/assets/bestseller/bestsellerBG.png";
 
@@ -73,37 +72,35 @@ export const newCollectionData = {
 };
 
 export const aboutData = {
-  img: AboutImg,
   title: "Best fashion since 2022",
   subtitle:
     "Lorem ipsum dolor sit amet consectetur. Tincidunt in id tortor amet. Ac nibh quis ut ornare id. Scelerisque enim donec posuere dolor tristique viverra. Condimentum leo integer velit ipsum tortor.",
-  gradient: Gradient,
-  rectangle: Rectangle,
+  vector: Vector,
+  rectangle2: Rectangle2,
   stats: [
     {
       id: "stat1",
       startNum: "1982",
       endNum: "2022",
-      // unit: "",
-      delay: "4",
-      text: "FASHION Founded",
+      suf: "",
+      duration: "4",
+      logo: "Fashion",
+      text: " Founded",
     },
     {
       id: "stat2",
       startNum: "4792",
       endNum: "5000",
-      // unit: "",
-      suf: "+",
-      delay: "3",
+      suf: '+',
+      duration: "3",
       text: "Product sold",
     },
     {
       id: "stat3",
       startNum: "2741",
       endNum: "3000",
-      // unit: "",
       suf: "+",
-      delay: "2",
+      duration: "2",
       text: "Best reviews",
     },
   ],

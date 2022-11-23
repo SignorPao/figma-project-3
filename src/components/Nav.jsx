@@ -55,7 +55,7 @@ const Nav = () => {
           <div className="hover:scale-110 transition">
             <a
               href="#"
-              className="font-a text-3xl text-black lg:text-4xl 2xl:text-5xl"
+              className="font-logo text-3xl text-black lg:text-4xl 2xl:text-5xl"
             >
               {logo}
             </a>
