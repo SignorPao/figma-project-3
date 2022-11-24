@@ -12,7 +12,7 @@ const NewCollection = () => {
       <div className="wrapper flex flex-col gap-y-6 md:gap-y-9 lg:gap-y-12 relative overflow-visible">
         {/* text */}
         <div
-          className="flex flex-col items-center justify-center text-center gap-y-4"
+          className="w-[70%] md:w-[50%] mx-auto flex flex-col items-center justify-center text-center gap-y-4"
           data-aos="fade-up"
           data-aos-delay="300"
         >
@@ -52,15 +52,7 @@ const NewCollection = () => {
             alt="shape"
             className="absolute -bottom-[3%] md:-bottom-[1%] lg:-bottom-[10%] xl:-bottom-[13%] -right-[10%] md:-right-[9%] xl:-right-[7%] w-40 md:w-52 lg:w-60 2xl:w-80 z-[10]"
             data-aos="zoom-in-up"
-            // delay="1200"
-            // offset="300"
-            // easing='ease-in-out'
           />
-          {/* <img
-            src={vector}
-            alt="shape"
-            className="absolute bottom-0 right-0 w-20 z-[15]"
-          /> */}
         </div>
       </div>
     </div>

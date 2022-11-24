@@ -1,5 +1,4 @@
 // import icons
-// import { BsCart3 } from "react-icons/bs";
 import { IoCartOutline, IoStar, IoMenu, IoClose } from "react-icons/io5";
 
 // import images
@@ -12,7 +11,11 @@ import NewCollection1 from "../src/assets/new collection/newCollection10.webp";
 import NewCollection2 from "../src/assets/new collection/newCollection20.webp";
 import NewCollection3 from "../src/assets/new collection/newCollection30.webp";
 
-import BestBG from "../src/assets/bestseller/bestsellerBG.png";
+import Best1 from "../src/assets/bestseller/bestseller1.webp";
+import Best2 from "../src/assets/bestseller/bestseller2.webp";
+import Best3 from "../src/assets/bestseller/bestseller3.webp";
+import Best4 from "../src/assets/bestseller/bestseller4.webp";
+import Best5 from "../src/assets/bestseller/bestseller5.webp";
 
 export const navData = {
   logo: "Fashion",
@@ -91,7 +94,7 @@ export const aboutData = {
       id: "stat2",
       startNum: "4792",
       endNum: "5000",
-      suf: '+',
+      suf: "+",
       duration: "3",
       text: "Product sold",
     },
@@ -111,47 +114,46 @@ export const bestsellerData = {
   subtitle:
     "Lorem ipsum dolor sit amet consectetur. Tristique amet varius mattis feugiat integer quis natoque.",
   btn: "See more",
-  bg: BestBG,
   cards: [
     {
       id: "best1",
-      img: "",
+      img: Best1,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
       id: "best2",
-      img: "",
+      img: Best2,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
       id: "best3",
-      img: "",
+      img: Best3,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
       id: "best4",
-      img: "",
+      img: Best4,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
       id: "best5",
-      img: "",
+      img: Best5,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
   ],
 };

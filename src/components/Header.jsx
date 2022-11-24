@@ -21,16 +21,17 @@ const Header = () => {
 
         {/* hero */}
         <div className="flex flex-col lg:flex-row h-full pt-20 relative z-[20]">
-
           {/* text */}
           <div
-            className="flex-1 h-full w-[70%] mx-auto lg:w-full flex flex-col items-center lg:items-start justify-center gap-y-6 text-center lg:text-left lg:max-w-md 2xl:max-w-[600px]"
+            className="flex-1 h-full w-[70%] md:w-[50%] mx-auto lg:w-full flex flex-col items-center lg:items-start justify-center gap-y-4 md:gap-y-6 text-center lg:text-left lg:max-w-md 2xl:max-w-[600px]"
             data-aos="fade-right"
             data-aos-delay="800"
           >
             <h1 className="h1">{title}</h1>
             <p className="capitalize lg:max-w-[360px]">{subtitle}</p>
-            <button className="btn btn-primary shadow-2xl">{btn}</button>
+            <button className="btn btn-primary shadow-2xl">
+              <a href="#new">{btn}</a>
+            </button>
           </div>
 
           {/* image */}
@@ -40,7 +41,6 @@ const Header = () => {
             data-aos-delay="800"
           >
             <div className="w-[85%] h-[90%] lg:w-[90%] lg:h-[60%] xl:w-[70%] xl:h-[85%] rounded-bl-[80px] lg:rounded-bl-[120px] bg-hero bg-center bg-cover bg-no-repeat relative">
-              
               {/* some shapes */}
               <img
                 src={vector}

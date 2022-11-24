@@ -36,7 +36,7 @@ const About = () => {
 
         {/* text */}
         <div
-          className="lg:flex-1 order-1 lg:order-2 flex flex-col items-center lg:items-start justify-start text-center lg:text-left lg:pt-28 gap-y-4"
+          className="w-[70%] md:w-[50%] mx-auto lg:flex-1 order-1 lg:order-2 flex flex-col items-center lg:items-start justify-start text-center lg:text-left lg:pt-28 2xl:pt-52 gap-y-4"
           data-aos="fade-left"
           data-aos-delay="600"
         >
@@ -46,7 +46,7 @@ const About = () => {
 
         {/* stats */}
         <div
-          className="bg-white order-3 w-full lg:w-[70%] lg:absolute bottom-0 lg:-bottom-[8%] xl:-bottom-[2%] right-0 lg:right-4 flex justify-center items-center py-6 lg:py-10 2xl:py-16 shadow-lg"
+          className="bg-white order-3 w-full lg:w-[70%] lg:absolute bottom-0 lg:-bottom-[8%] xl:-bottom-[2%] right-0 lg:right-4 flex justify-center items-center py-6 lg:py-10 2xl:py-16 shadow-lg xl:shadow-xl"
           data-aos="fade-up"
           data-aos-delay="800"
         >

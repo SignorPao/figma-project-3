@@ -37,7 +37,7 @@
     @apply text-2xl lg:text-4xl 2xl:text-[52px];
   }
   .h6 {
-    @apply font-bold text-[12px] lg:text-[14px] 2xl:text-[18px];
+    @apply font-extrabold text-[12px] lg:text-[14px] 2xl:text-[18px];
   }
   .btn {
     @apply tracking-wider px-8 py-2 font-semibold text-xs md:text-sm lg:text-base 2xl:text-lg transition;
