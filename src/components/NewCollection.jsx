@@ -12,7 +12,7 @@ const NewCollection = () => {
       <div className="wrapper flex flex-col gap-y-6 md:gap-y-9 lg:gap-y-12 relative overflow-visible">
         {/* text */}
         <div
-          className="w-[70%] md:w-[50%] mx-auto flex flex-col items-center justify-center text-center gap-y-4"
+          className="w-[70%] md:w-[50%] mx-auto flex flex-col items-center justify-center text-center gap-y-4 lg:gap-y-6"
           data-aos="fade-up"
           data-aos-delay="300"
         >

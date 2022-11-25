@@ -36,7 +36,7 @@ const About = () => {
 
         {/* text */}
         <div
-          className="w-[70%] md:w-[50%] mx-auto lg:flex-1 order-1 lg:order-2 flex flex-col items-center lg:items-start justify-start text-center lg:text-left lg:pt-28 2xl:pt-52 gap-y-4"
+          className="w-[70%] md:w-[50%] mx-auto lg:flex-1 order-1 lg:order-2 flex flex-col items-center lg:items-start justify-start text-center lg:text-left lg:pt-28 2xl:pt-52 gap-y-4 lg:gap-y-6"
           data-aos="fade-left"
           data-aos-delay="600"
         >

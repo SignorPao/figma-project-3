@@ -7,3 +7,14 @@ const Instagram = () => {
 }
 
 export default Instagram
+
+
+// var swiper = new Swiper(".swiper-container", {
+//   slidesPerView: "auto",
+//   freeMode: true,
+//   loop: true,
+//   loopedSlides: 8 // according to the codepen
+//   mousewheel: {
+//     releaseOnEdges: true,
+//   },
+// });
