@@ -17,7 +17,7 @@ const About = () => {
         <div
           className="lg:flex-1 order-2 lg:order-1  h-[50vh] md:h-[60vh] lg:h-[40vh] xl:h-[75vh] w-full flex items-center justify-center lg:justify-start"
           data-aos="fade-right"
-          data-aos-delay="400"
+          data-aos-delay="600"
         >
           <div className="w-[85%] h-full lg:w-[90%] lg:h-[100%] xl:w-[80%] xl:h-[90%] rounded-tl-[80px] lg:rounded-tl-[120px] bg-about bg-center bg-cover bg-no-repeat relative">
             {/* some shapes */}
@@ -38,7 +38,7 @@ const About = () => {
         <div
           className="w-[70%] md:w-[50%] mx-auto lg:flex-1 order-1 lg:order-2 flex flex-col items-center lg:items-start justify-start text-center lg:text-left lg:pt-28 2xl:pt-52 gap-y-4 lg:gap-y-6"
           data-aos="fade-left"
-          data-aos-delay="600"
+          data-aos-delay="400"
         >
           <h2 className="h2 lg:max-w-[80%]">{title}</h2>
           <p className="capitalize lg:max-w-[80%]">{subtitle}</p>

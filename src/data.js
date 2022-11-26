@@ -17,6 +17,15 @@ import Best3 from "../src/assets/bestseller/bestseller3.webp";
 import Best4 from "../src/assets/bestseller/bestseller4.webp";
 import Best5 from "../src/assets/bestseller/bestseller5.webp";
 
+import Product1 from '../src/assets/product/product1.webp';
+import Product2 from '../src/assets/product/product2.webp';
+import Product3 from '../src/assets/product/product3.webp';
+import Product4 from '../src/assets/product/product4.webp';
+import Product5 from '../src/assets/product/product5.webp';
+import Product6 from '../src/assets/product/product6.webp';
+import Product7 from '../src/assets/product/product7.webp';
+import Product8 from '../src/assets/product/product8.webp';
+
 export const navData = {
   logo: "Fashion",
   cartIcon: {
@@ -160,6 +169,7 @@ export const bestsellerData = {
 
 export const productData = {
   title: "Our product",
+  vector: Vector,
   menu: [
     {
       name: "Hot",
@@ -180,68 +190,60 @@ export const productData = {
   ],
   cards: [
     {
-      id: "product1",
-      img: "",
+      img: Product1,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product2",
-      img: "",
+      img: Product2,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product3",
-      img: "",
+      img: Product3,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product4",
-      img: "",
+      img: Product4,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product5",
-      img: "",
+      img: Product5,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product6",
-      img: "",
+      img: Product6,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product7",
-      img: "",
+      img: Product7,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
     {
-      id: "product8",
-      img: "",
+      img: Product8,
       icon: <IoStar />,
-      name: "",
-      priceOld: "",
-      priceNew: "",
+      name: "Women's clothing",
+      priceOld: "$250",
+      priceNew: "$150",
     },
   ],
 };
