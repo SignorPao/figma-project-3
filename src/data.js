@@ -17,14 +17,16 @@ import Best3 from "../src/assets/bestseller/bestseller3.webp";
 import Best4 from "../src/assets/bestseller/bestseller4.webp";
 import Best5 from "../src/assets/bestseller/bestseller5.webp";
 
-import Product1 from '../src/assets/product/product1.webp';
-import Product2 from '../src/assets/product/product2.webp';
-import Product3 from '../src/assets/product/product3.webp';
-import Product4 from '../src/assets/product/product4.webp';
-import Product5 from '../src/assets/product/product5.webp';
-import Product6 from '../src/assets/product/product6.webp';
-import Product7 from '../src/assets/product/product7.webp';
-import Product8 from '../src/assets/product/product8.webp';
+import Product1 from "../src/assets/product/product1.webp";
+import Product2 from "../src/assets/product/product2.webp";
+import Product3 from "../src/assets/product/product3.webp";
+import Product4 from "../src/assets/product/product4.webp";
+import Product5 from "../src/assets/product/product5.webp";
+import Product6 from "../src/assets/product/product6.webp";
+import Product7 from "../src/assets/product/product7.webp";
+import Product8 from "../src/assets/product/product8.webp";
+
+import Discount from "../src/assets/discount/discount.webp";
 
 export const navData = {
   logo: "Fashion",
@@ -276,7 +278,9 @@ export const discountData = {
     },
   ],
   btn: "Shop now",
-  img: "",
+  img: Discount,
+  gradient: Gradient,
+  vector: Vector,
 };
 
 export const testimonialData = {
