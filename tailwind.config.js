@@ -48,6 +48,7 @@ module.exports = {
         hero: "url('assets/header/heroImg.webp')",
         about: "url('assets/about/about.webp')",
         bestseller: "url('assets/bestseller/bestsellerBG.png')",
+        discount: "url('assets/discount/discount.webp')",
       },
     },
   },
