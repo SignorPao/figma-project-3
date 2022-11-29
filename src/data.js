@@ -26,7 +26,22 @@ import Product6 from "../src/assets/product/product6.webp";
 import Product7 from "../src/assets/product/product7.webp";
 import Product8 from "../src/assets/product/product8.webp";
 
-import Discount from "../src/assets/discount/discount.webp";
+import Testimonial1 from "../src/assets/testimonial/avatar1.webp";
+import Testimonial2 from "../src/assets/testimonial/avatar2.webp";
+import Testimonial3 from "../src/assets/testimonial/avatar3.webp";
+import Testimonial4 from "../src/assets/testimonial/avatar4.webp";
+import Testimonial5 from "../src/assets/testimonial/avatar5.webp";
+
+import Instagram1 from '../src/assets/instagram/insta1.webp'
+import Instagram2 from '../src/assets/instagram/insta2.webp'
+import Instagram3 from '../src/assets/instagram/insta3.webp'
+import Instagram4 from '../src/assets/instagram/insta4.webp'
+import Instagram5 from '../src/assets/instagram/insta5.webp'
+import Instagram6 from '../src/assets/instagram/insta6.webp'
+import Instagram7 from '../src/assets/instagram/insta7.webp'
+import Instagram8 from '../src/assets/instagram/insta8.webp'
+import Instagram9 from '../src/assets/instagram/insta9.webp'
+import Instagram10 from '../src/assets/instagram/insta10.webp'
 
 export const navData = {
   logo: "Fashion",
@@ -293,9 +308,9 @@ export const testimonialData = {
         "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Sed accumsan eget purus nam aliquam consequat. Porttitor in volutpat interdum sed semper scelerisque. Nibh tincidunt sed ut eget euismod ipsum. Bibendum elit sit sit ultrices dui pulvinar.",
-      avatar: "",
-      name: "",
-      position: "",
+      avatar: Testimonial1,
+      name: "Peggy Sew",
+      position: "Founder milenial",
     },
     {
       id: "testimonial2",
@@ -303,9 +318,9 @@ export const testimonialData = {
         "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Sed accumsan eget purus nam aliquam consequat. Porttitor in volutpat interdum sed semper scelerisque. Nibh tincidunt sed ut eget euismod ipsum. Bibendum elit sit sit ultrices dui pulvinar.",
-      avatar: "",
-      name: "",
-      position: "",
+      avatar: Testimonial2,
+      name: "Peggy Sew",
+      position: "Founder milenial",
     },
     {
       id: "testimonial3",
@@ -313,9 +328,9 @@ export const testimonialData = {
         "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Sed accumsan eget purus nam aliquam consequat. Porttitor in volutpat interdum sed semper scelerisque. Nibh tincidunt sed ut eget euismod ipsum. Bibendum elit sit sit ultrices dui pulvinar.",
-      avatar: "",
-      name: "",
-      position: "",
+      avatar: Testimonial3,
+      name: "Peggy Sew",
+      position: "Founder milenial",
     },
     {
       id: "testimonial4",
@@ -323,9 +338,9 @@ export const testimonialData = {
         "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Sed accumsan eget purus nam aliquam consequat. Porttitor in volutpat interdum sed semper scelerisque. Nibh tincidunt sed ut eget euismod ipsum. Bibendum elit sit sit ultrices dui pulvinar.",
-      avatar: "",
-      name: "",
-      position: "",
+      avatar: Testimonial4,
+      name: "Peggy Sew",
+      position: "Founder milenial",
     },
     {
       id: "testimonial5",
@@ -333,9 +348,9 @@ export const testimonialData = {
         "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Sed accumsan eget purus nam aliquam consequat. Porttitor in volutpat interdum sed semper scelerisque. Nibh tincidunt sed ut eget euismod ipsum. Bibendum elit sit sit ultrices dui pulvinar.",
-      avatar: "",
-      name: "",
-      position: "",
+      avatar: Testimonial5,
+      name: "Peggy Sew",
+      position: "Founder milenial",
     },
   ],
 };
@@ -344,43 +359,43 @@ export const instagramData = {
   images: [
     {
       id: "img1",
-      img: "",
+      img: Instagram1,
     },
     {
       id: "img2",
-      img: "",
+      img: Instagram2,
     },
     {
       id: "img3",
-      img: "",
+      img: Instagram3,
     },
     {
       id: "img4",
-      img: "",
+      img: Instagram4,
     },
     {
       id: "img5",
-      img: "",
+      img: Instagram5,
     },
     {
       id: "img6",
-      img: "",
+      img: Instagram6,
     },
     {
       id: "img7",
-      img: "",
+      img: Instagram7,
     },
     {
       id: "img8",
-      img: "",
+      img: Instagram8,
     },
     {
       id: "img9",
-      img: "",
+      img: Instagram9,
     },
     {
       id: "img10",
-      img: "",
+      img: Instagram10,
     },
   ],
 };
@@ -396,11 +411,11 @@ export const footerData = {
     { name: "Home", href: "home" },
     { name: "New", href: "new" },
     { name: "About", href: "about" },
-    { name: "Best Sellers", href: "best" },
+    { name: "Best Seller", href: "best" },
     { name: "Product", href: "product" },
     { name: "Testimonial", href: "testimonial" },
   ],
-  copy: "2022 FASHION. ALL RIGHTS RESERVED",
+  copy: "Fashion. All Rights Reserved",
   me: [
     { text: "Created by " },
     { name: "@signorPao" },

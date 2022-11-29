@@ -40,9 +40,6 @@ module.exports = {
         yellow: "#FFB168",
         transparent: "transparent",
       },
-      // boxShadow: {
-      //   primary: "0px 8px 30px -12px rgba(43, 43, 43, 1)",
-      // },
       backgroundImage: {
         header: "url('assets/header/headerBG.png')",
         hero: "url('assets/header/heroImg.webp')",
