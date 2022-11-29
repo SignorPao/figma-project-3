@@ -3,7 +3,6 @@
 
 /* logo */
 @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Great+Vibes&family=Imperial+Script&family=Mea+Culpa&family=MonteCarlo&family=Niconne&family=Pinyon+Script&family=Rochester&family=Sacramento&display=swap");
-/* logo */
 
 @tailwind base;
 @tailwind components;
@@ -48,9 +47,6 @@
   .btn-secondary {
     @apply uppercase font-medium bg-transparent text-black border border-black text-[10px] md:text-[12px] 2xl:text-[14px] hover:bg-black hover:text-white lg:border-2 lg:font-semibold;
   }
-  /* .link {
-    @apply cursor-pointer hover:text-black/80 transition;
-  } */
 }
 
 html {

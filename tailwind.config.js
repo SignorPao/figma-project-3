@@ -6,14 +6,6 @@ module.exports = {
       primary: "Frank Ruhl Libre",
       secondary: "Lato",
       logo: "Grand Hotel",
-      // b: "Great Vibes",
-      // c: "Imperial Script",
-      // d: "Mea Culpa",
-      // e: "MonteCarlo",
-      // f: "Niconne",
-      // g: "Pinyon Script",
-      // h: "Rochester",
-      // i: "Sacramento",
     },
     container: {
       padding: {

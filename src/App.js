@@ -34,7 +34,6 @@ function App() {
       <Discount />
       <Testimonial />
       <Footer />
-      {/* <div className="h-[1000px]" /> */}
     </div>
   );
 }
